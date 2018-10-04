@@ -200,7 +200,7 @@ function writeHandleStats() {
 
 //handle buttons functions
 document.querySelector('.handle_button_exit').addEventListener('click', () => {
-	toggleReport();
+	toggleHandle();
 });
 document.querySelector('.handle_button_playagain').addEventListener('click', replayGame);
 
