@@ -268,6 +268,10 @@ function resetCards() {
 		card.classList = 'card';
 	}
 }
+function resetMoves() {
+	moves = 0;
+	document.querySelector('.moves').innerHTML = moves;
+}
 
 /*
  * set up the event listener for a card. If a card is clicked:
